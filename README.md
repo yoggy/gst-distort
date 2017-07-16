@@ -4,6 +4,8 @@ OpenCV2とGStreamerの組み合わせサンプル。
 
 ![img01.gif](img01.gif)
 
+cv::getPerspectiveTransform()を使用した台形補正のサンプル。
+
 ``` c++
 static GstFlowReturn
 gst_distort_transform_frame(GstVideoFilter *obj,
